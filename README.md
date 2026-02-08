@@ -99,4 +99,4 @@ The main physical components of this layout are:
 ---
 
 ## Conclusions
-Discuss the effectiveness of dispersion-compensating fiber and the ability of the calculations to engineer a viable system.
+Hence, the use of dispersion-compensating fiber successfully minimized chromatic dispersion and improved system performance, thereby validating the theoretical design calculations.
