@@ -1,9 +1,7 @@
 # Dispersion-Compensation
 # Dispersion Compensation
-
 ## Objective
 Design and simulate a fiber optic system using dispersion-compensating fiber to reduce chromatic dispersion.
-
 ## Theory
 Dispersion-compensating fiber (DCF) provides an optical medium with a relatively large negative chromatic dispersion factor \(D(\lambda)\) at the operating wavelength.  
 
@@ -17,17 +15,12 @@ where:
 - \(D_{TF}(\lambda)\) = chromatic dispersion factor for the transmission fiber  
 - \(D_{DCF}(\lambda)\) = chromatic dispersion factor for the DCF  
 - \(\Delta \lambda\) = transmitter spectral width  
-
 Similarly, the total attenuation loss of the two-fiber combination is:
-
 \[
 Loss = A_{TF} \cdot L_{TF} + A_{DCF} \cdot L_{DCF}
 \]
-
 Therefore, given target values for chromatic dispersion and attenuation loss plus specifications of the transmitter, fiber, and receiver, one can determine the lengths of the transmission fiber and the DCF by solving the above two equations simultaneously.
-
 ---
-
 ## Specifications
 - **Output power:** 0 dBm  
 - **Spectral width:** To be determined  
@@ -37,20 +30,15 @@ Therefore, given target values for chromatic dispersion and attenuation loss plu
 - **DCF:** See below  
 - **Receiver sensitivity:** -35 dBm  
 - **System margin + coupling loss attenuation:** 6 dB  
-
 **DCF Parameters:**  
 - Chromatic dispersion factor: –200 ps/nm-km at 1550 nm  
 - Attenuation: 0.5 dB/km at 1550 nm  
-
 ---
-
 ## Calculations
 1. Determine the maximum allowable fiber loss  
 2. Determine the maximum allowable chromatic dispersion  
 3. Based on the results of (1) and (2), determine the lengths of the transmission fiber and the DCF  
-
 ---
-
 ## Layout
 The main physical components of this layout are:
 1. **Transmitter:** Bit sequence generator, non-return to zero (NRZ) pulse generator, and a laser  
