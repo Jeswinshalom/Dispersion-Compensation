@@ -57,15 +57,12 @@ The main physical components of this layout are:
 2. **Transmission fiber**  
 3. **Dispersion compensation fiber (DCF)**  
 4. **Receiver:** PIN detector and electrical filter  
-
 **Notes:**  
 - The NRZ scheme is used here. The signal does not return to zero between successive 1 bits, resulting in a narrower spectral width than a return-to-zero scheme.  
 - Visualizer components included:  
   - Three Optical Time Domain visualizers (at transmitter output, after transmission fiber, and at the end of DCF)  
   - One Optical Spectrum Analyzer (at transmitter output, used to estimate spectral width)  
-
 ---
-
 ## Procedure
 - Adjust the laser power to obtain 0 dBm transmission output.  
 - Use the optical spectrum analyzer to determine the spectral width of the signal.  
@@ -81,14 +78,10 @@ The main physical components of this layout are:
 - Record:  
   - Eye diagram  
   - Optical waveforms at transmitter output, junction between fibers, and receiver input  
-
 ---
-
 ## Further Simulation and Analysis
 - Set the DCF length to 0 and run the simulation again.  
-- Record similar measurements for comparison.  
-
-
+- Record similar measurements for comparison. 
 ![WhatsApp Image 2026-02-08 at 6 14 59 PM](https://github.com/user-attachments/assets/149e38d5-6381-4ed5-8723-0098847ad31d)
 
 ## Graph
